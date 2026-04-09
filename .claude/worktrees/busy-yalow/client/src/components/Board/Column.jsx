@@ -3,8 +3,8 @@ import ArticleCard from './ArticleCard';
 
 const COLUMN_CONFIG = {
   idea:      { label: 'Ideas',     color: 'bg-purple-100 text-purple-800', dot: 'bg-purple-400' },
-  draft:     { label: 'Drafts',     color: 'bg-yellow-100 text-yellow-800', dot: 'bg-yellow-400' },
-  published: { label: 'Current', color: 'bg-green-100 text-green-800',  dot: 'bg-green-400'  }
+  draft:     { label: 'Draft',     color: 'bg-yellow-100 text-yellow-800', dot: 'bg-yellow-400' },
+  published: { label: 'Published', color: 'bg-green-100 text-green-800',  dot: 'bg-green-400'  }
 };
 
 export default function Column({ status, articles, onAdd, onOpen, onArchive, onDelete, onExport }) {
